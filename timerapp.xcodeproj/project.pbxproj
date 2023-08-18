@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9EFB8702A8EFEEC00CC638D /* timerapp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E9EFB86F2A8EFEEC00CC638D /* timerapp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9EFB8752A8EFEEC00CC638D /* timerappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFB8742A8EFEEC00CC638D /* timerappApp.swift */; };
+		E9EFB8772A8EFEEC00CC638D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFB8762A8EFEEC00CC638D /* ContentView.swift */; };
+		E9EFB8792A8EFEED00CC638D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EFB8782A8EFEED00CC638D /* Assets.xcassets */; };
+		E9EFB87C2A8EFEED00CC638D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EFB87B2A8EFEED00CC638D /* Preview Assets.xcassets */; };
+		E9EFB8862A8EFEED00CC638D /* timerapp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFB8852A8EFEED00CC638D /* timerapp_Watch_AppTests.swift */; };
+		E9EFB8902A8EFEED00CC638D /* timerapp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFB88F2A8EFEED00CC638D /* timerapp_Watch_AppUITests.swift */; };
+		E9EFB8922A8EFEED00CC638D /* timerapp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFB8912A8EFEED00CC638D /* timerapp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9EFB8712A8EFEEC00CC638D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EFB8632A8EFEEC00CC638D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EFB86E2A8EFEEC00CC638D;
+			remoteInfo = "timerapp Watch App";
+		};
+		E9EFB8822A8EFEED00CC638D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EFB8632A8EFEEC00CC638D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EFB86E2A8EFEEC00CC638D;
+			remoteInfo = "timerapp Watch App";
+		};
+		E9EFB88C2A8EFEED00CC638D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EFB8632A8EFEEC00CC638D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EFB86E2A8EFEEC00CC638D;
+			remoteInfo = "timerapp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9EFB8982A8EFEED00CC638D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E9EFB8702A8EFEEC00CC638D /* timerapp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E9EFB8692A8EFEEC00CC638D /* timerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFB86F2A8EFEEC00CC638D /* timerapp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timerapp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFB8742A8EFEEC00CC638D /* timerappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerappApp.swift; sourceTree = "<group>"; };
+		E9EFB8762A8EFEEC00CC638D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9EFB8782A8EFEED00CC638D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EFB87B2A8EFEED00CC638D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9EFB8812A8EFEED00CC638D /* timerapp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timerapp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFB8852A8EFEED00CC638D /* timerapp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerapp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E9EFB88B2A8EFEED00CC638D /* timerapp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timerapp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFB88F2A8EFEED00CC638D /* timerapp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerapp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E9EFB8912A8EFEED00CC638D /* timerapp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerapp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EFB86C2A8EFEEC00CC638D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB87E2A8EFEED00CC638D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB8882A8EFEED00CC638D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9EFB8622A8EFEEC00CC638D = {
+			isa = PBXGroup;
+			children = (
+				E9EFB8732A8EFEEC00CC638D /* timerapp Watch App */,
+				E9EFB8842A8EFEED00CC638D /* timerapp Watch AppTests */,
+				E9EFB88E2A8EFEED00CC638D /* timerapp Watch AppUITests */,
+				E9EFB86A2A8EFEEC00CC638D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EFB86A2A8EFEEC00CC638D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB8692A8EFEEC00CC638D /* timerapp.app */,
+				E9EFB86F2A8EFEEC00CC638D /* timerapp Watch App.app */,
+				E9EFB8812A8EFEED00CC638D /* timerapp Watch AppTests.xctest */,
+				E9EFB88B2A8EFEED00CC638D /* timerapp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EFB8732A8EFEEC00CC638D /* timerapp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB8742A8EFEEC00CC638D /* timerappApp.swift */,
+				E9EFB8762A8EFEEC00CC638D /* ContentView.swift */,
+				E9EFB8782A8EFEED00CC638D /* Assets.xcassets */,
+				E9EFB87A2A8EFEED00CC638D /* Preview Content */,
+			);
+			path = "timerapp Watch App";
+			sourceTree = "<group>";
+		};
+		E9EFB87A2A8EFEED00CC638D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB87B2A8EFEED00CC638D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9EFB8842A8EFEED00CC638D /* timerapp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB8852A8EFEED00CC638D /* timerapp_Watch_AppTests.swift */,
+			);
+			path = "timerapp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E9EFB88E2A8EFEED00CC638D /* timerapp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB88F2A8EFEED00CC638D /* timerapp_Watch_AppUITests.swift */,
+				E9EFB8912A8EFEED00CC638D /* timerapp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "timerapp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EFB8682A8EFEEC00CC638D /* timerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EFB8992A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp" */;
+			buildPhases = (
+				E9EFB8672A8EFEEC00CC638D /* Resources */,
+				E9EFB8982A8EFEED00CC638D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EFB8722A8EFEEC00CC638D /* PBXTargetDependency */,
+			);
+			name = timerapp;
+			productName = timerapp;
+			productReference = E9EFB8692A8EFEEC00CC638D /* timerapp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E9EFB86E2A8EFEEC00CC638D /* timerapp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EFB8952A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch App" */;
+			buildPhases = (
+				E9EFB86B2A8EFEEC00CC638D /* Sources */,
+				E9EFB86C2A8EFEEC00CC638D /* Frameworks */,
+				E9EFB86D2A8EFEEC00CC638D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "timerapp Watch App";
+			productName = "timerapp Watch App";
+			productReference = E9EFB86F2A8EFEEC00CC638D /* timerapp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9EFB8802A8EFEED00CC638D /* timerapp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EFB89C2A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch AppTests" */;
+			buildPhases = (
+				E9EFB87D2A8EFEED00CC638D /* Sources */,
+				E9EFB87E2A8EFEED00CC638D /* Frameworks */,
+				E9EFB87F2A8EFEED00CC638D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EFB8832A8EFEED00CC638D /* PBXTargetDependency */,
+			);
+			name = "timerapp Watch AppTests";
+			productName = "timerapp Watch AppTests";
+			productReference = E9EFB8812A8EFEED00CC638D /* timerapp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9EFB88A2A8EFEED00CC638D /* timerapp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EFB89F2A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch AppUITests" */;
+			buildPhases = (
+				E9EFB8872A8EFEED00CC638D /* Sources */,
+				E9EFB8882A8EFEED00CC638D /* Frameworks */,
+				E9EFB8892A8EFEED00CC638D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EFB88D2A8EFEED00CC638D /* PBXTargetDependency */,
+			);
+			name = "timerapp Watch AppUITests";
+			productName = "timerapp Watch AppUITests";
+			productReference = E9EFB88B2A8EFEED00CC638D /* timerapp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EFB8632A8EFEEC00CC638D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E9EFB8682A8EFEEC00CC638D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E9EFB86E2A8EFEEC00CC638D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E9EFB8802A8EFEED00CC638D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E9EFB86E2A8EFEEC00CC638D;
+					};
+					E9EFB88A2A8EFEED00CC638D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E9EFB86E2A8EFEEC00CC638D;
+					};
+				};
+			};
+			buildConfigurationList = E9EFB8662A8EFEEC00CC638D /* Build configuration list for PBXProject "timerapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9EFB8622A8EFEEC00CC638D;
+			productRefGroup = E9EFB86A2A8EFEEC00CC638D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EFB8682A8EFEEC00CC638D /* timerapp */,
+				E9EFB86E2A8EFEEC00CC638D /* timerapp Watch App */,
+				E9EFB8802A8EFEED00CC638D /* timerapp Watch AppTests */,
+				E9EFB88A2A8EFEED00CC638D /* timerapp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EFB8672A8EFEEC00CC638D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB86D2A8EFEEC00CC638D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFB87C2A8EFEED00CC638D /* Preview Assets.xcassets in Resources */,
+				E9EFB8792A8EFEED00CC638D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB87F2A8EFEED00CC638D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB8892A8EFEED00CC638D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EFB86B2A8EFEEC00CC638D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFB8772A8EFEEC00CC638D /* ContentView.swift in Sources */,
+				E9EFB8752A8EFEEC00CC638D /* timerappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB87D2A8EFEED00CC638D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFB8862A8EFEED00CC638D /* timerapp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EFB8872A8EFEED00CC638D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFB8922A8EFEED00CC638D /* timerapp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				E9EFB8902A8EFEED00CC638D /* timerapp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9EFB8722A8EFEEC00CC638D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EFB86E2A8EFEEC00CC638D /* timerapp Watch App */;
+			targetProxy = E9EFB8712A8EFEEC00CC638D /* PBXContainerItemProxy */;
+		};
+		E9EFB8832A8EFEED00CC638D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EFB86E2A8EFEEC00CC638D /* timerapp Watch App */;
+			targetProxy = E9EFB8822A8EFEED00CC638D /* PBXContainerItemProxy */;
+		};
+		E9EFB88D2A8EFEED00CC638D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EFB86E2A8EFEEC00CC638D /* timerapp Watch App */;
+			targetProxy = E9EFB88C2A8EFEED00CC638D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9EFB8932A8EFEED00CC638D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9EFB8942A8EFEED00CC638D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E9EFB8962A8EFEED00CC638D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"timerapp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = timerapp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.timerapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E9EFB8972A8EFEED00CC638D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"timerapp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = timerapp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.timerapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E9EFB89A2A8EFEED00CC638D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = timerapp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.timerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9EFB89B2A8EFEED00CC638D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = timerapp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arslogica.timerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EFB89D2A8EFEED00CC638D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslogica.timerapp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timerapp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/timerapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E9EFB89E2A8EFEED00CC638D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslogica.timerapp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timerapp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/timerapp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E9EFB8A02A8EFEED00CC638D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslogica.timerapp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "timerapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E9EFB8A12A8EFEED00CC638D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslogica.timerapp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "timerapp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EFB8662A8EFEEC00CC638D /* Build configuration list for PBXProject "timerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EFB8932A8EFEED00CC638D /* Debug */,
+				E9EFB8942A8EFEED00CC638D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EFB8952A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EFB8962A8EFEED00CC638D /* Debug */,
+				E9EFB8972A8EFEED00CC638D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EFB8992A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EFB89A2A8EFEED00CC638D /* Debug */,
+				E9EFB89B2A8EFEED00CC638D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EFB89C2A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EFB89D2A8EFEED00CC638D /* Debug */,
+				E9EFB89E2A8EFEED00CC638D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EFB89F2A8EFEED00CC638D /* Build configuration list for PBXNativeTarget "timerapp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EFB8A02A8EFEED00CC638D /* Debug */,
+				E9EFB8A12A8EFEED00CC638D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EFB8632A8EFEEC00CC638D /* Project object */;
+}
